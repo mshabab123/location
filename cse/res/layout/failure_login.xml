@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nointernce" />
+
+    <TextView
+        android:id="@+id/inv"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="Invalid ID or password.Pleas try agin of register new user"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/agin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loin Agin" />
+
+    <Button
+        android:id="@+id/registeragin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+</LinearLayout>

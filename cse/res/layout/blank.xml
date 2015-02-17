@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.08" >
+
+        <TextView
+            android:id="@+id/locatins1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/showthereslut"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/showthereslut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/locatins1"
+            android:layout_marginRight="24dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/locatins1"
+            android:layout_alignParentLeft="true"
+            android:text="Send to:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="171dp" >
+
+        <Button
+            android:id="@+id/finish_blank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/shwothenumber25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Show" />
+
+        <Button
+            android:id="@+id/sendmsg12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Send" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/penguin" />
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_toRightOf="@+id/sendmsg12"
+            android:src="@drawable/penguin" />
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/ImageView01"
+            android:layout_toRightOf="@+id/ImageView01"
+            android:src="@drawable/penguin" />
+
+    </RelativeLayout>
+
+</LinearLayout>

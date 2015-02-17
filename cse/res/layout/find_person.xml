@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/eeereererererer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="Find your friend by pasting the   "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/iddm4"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/imageView2"
+            android:src="@drawable/penguin" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/penguin" />
+
+        <TextView
+            android:id="@+id/fdfdfdfdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eeereererererer"
+            android:layout_centerHorizontal="true"
+            android:text="Geohash Code here "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="35dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/geohashcode"
+            android:src="@drawable/p1" />
+
+        <ImageView
+            android:id="@+id/im3"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_above="@+id/imageView1"
+            android:layout_toLeftOf="@+id/eeereererererer"
+            android:src="@drawable/penguin" />
+
+        <ImageView
+            android:id="@+id/im2"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_alignLeft="@+id/im3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_marginBottom="26dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:src="@drawable/penguin"
+            android:text="Done" />
+
+        <EditText
+            android:id="@+id/int250"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fdfdfdfdd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/done250"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/fdfdfdfdd"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_marginLeft="17dp"
+            android:text="Done" />
+    </RelativeLayout>
+
+</LinearLayout>

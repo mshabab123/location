@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/eeereererererer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text=" By using Geohash"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/iddm4"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/imageView2"
+            android:src="@drawable/penguin" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/penguin" />
+
+        <TextView
+            android:id="@+id/fdfdfdfdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eeereererererer"
+            android:layout_centerHorizontal="true"
+            android:text="Your location is "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/geohashcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fdfdfdfdd"
+            android:layout_centerHorizontal="true"
+            android:textIsSelectable="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/geohashcode"
+            android:src="@drawable/p1" />
+
+        <ImageView
+            android:id="@+id/im3"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_above="@+id/imageView1"
+            android:layout_toLeftOf="@+id/eeereererererer"
+            android:src="@drawable/penguin" />
+
+        <ImageView
+            android:id="@+id/im2"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="26dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:src="@drawable/penguin" />
+
+        <Button
+            android:id="@+id/done250"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/im3"
+            android:layout_alignTop="@+id/imageView2"
+            android:text="Done" />
+
+    </RelativeLayout>
+
+</LinearLayout>

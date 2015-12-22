@@ -1,7 +1,5 @@
 package com.mshabab.cse;
 
-
-
 import com.mshabab.cse.R;
 import com.mshabab.cse.R.id;
 import com.mshabab.cse.R.layout;

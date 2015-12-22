@@ -274,7 +274,6 @@ public class Login extends Activity implements OnClickListener {
 								return;
 							}
 						});
-
 		// Creating dialog box
 		AlertDialog alert = builder.create();
 		// Setting the title manually
